@@ -16,6 +16,20 @@
     <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
+    <script>
+      function loadScript(a) {
+        var b = document.getElementsByTagName("head")[0],
+          c = document.createElement("script");
+        (c.type = "text/javascript"),
+          (c.src = "https://tracker.metricool.com/resources/be.js"),
+          (c.onreadystatechange = a),
+          (c.onload = a),
+          b.appendChild(c);
+      }
+      loadScript(function () {
+        beTracker.t({ hash: "c5fca0564e518862778f3875a2fb2d8e" });
+      });
+    </script>
     <script
       src="https://kit.fontawesome.com/b45677e7c6.js"
       crossorigin="anonymous"
