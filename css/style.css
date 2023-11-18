@@ -112,6 +112,12 @@ textarea:focus {
 .cv {
   min-width: 100%;
 }
+.dd {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+}
 .download-inactive {
   pointer-events: none;
   text-decoration: none; /* Opcional: eliminar la decoración del enlace */
@@ -322,7 +328,7 @@ nav ul li a {
   object-fit: cover;
 }
 
-#resources .about-descr a{
+#resources .about-descr a {
   text-align: center;
 }
 
