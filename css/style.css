@@ -93,6 +93,13 @@ textarea:focus {
   background: #b8a07e;
   color: #fff;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 .btn {
   background: rgba(51, 51, 51, 0.651);
   border: medium none;
@@ -116,7 +123,7 @@ textarea:focus {
   display: flex;
   justify-content: center;
   margin: auto;
-  width: 60%;
+  width: 72%;
 }
 .download-inactive {
   pointer-events: none;
@@ -161,13 +168,7 @@ textarea:focus {
   padding-top: 90px;
   padding-bottom: 90px !important;
 }
-#about img {
-  border-radius: 10%;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -o-border-radius: 10%;
-}
+
 .hvr-shutter-in-horizontal::before {
   background: #333;
 }
@@ -280,6 +281,17 @@ nav ul li a {
   color: #fff;
   font-size: 15px;
 }
+
+/* ABOUT */
+
+#about img {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
 #about {
   width: 100%;
   height: auto;
@@ -440,6 +452,11 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
 }
+
+
+
+/* JOURNAL */
+
 #journal,
 #journal-blog {
   height: auto;
@@ -494,6 +511,18 @@ nav ul li a {
   font-size: 14px;
   line-height: 24px;
 }
+
+#journal img {
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+
+/* CONTACT */
+
 #contact {
   height: auto;
   width: 100%;
