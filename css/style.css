@@ -94,7 +94,7 @@ textarea:focus {
   color: #fff;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -123,7 +123,7 @@ textarea:focus {
   display: flex;
   justify-content: center;
   margin: auto;
-  width: 72%;
+  width: 38em;
 }
 .download-inactive {
   pointer-events: none;
@@ -453,8 +453,6 @@ nav ul li a {
   max-width: 100%;
 }
 
-
-
 /* JOURNAL */
 
 #journal,
@@ -519,7 +517,6 @@ nav ul li a {
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
 }
-
 
 /* CONTACT */
 
